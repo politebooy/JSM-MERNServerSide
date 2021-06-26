@@ -13,7 +13,7 @@ dotenv.config()
 import postRouter from './routes/posts.js'
 app.use('/posts', postRouter)
 app.get('/', (req, res) => {
-    res.send('<h1>Hellow from js mastry mern project</h1>')
+    res.send('<h1>Hellow from js mastry mern project update(1)</h1>')
 })
 
 const PORT = process.env.PORT || 5000
